@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                [title~=flower] {
+                border: 5px solid rgb(11, 255, 44);
+                }
+            </style>
+        </head>
+    <body>
+
+        <h2>CSS [attribute~="value"] Selector</h2>
+        <p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+        <img src="images/1.1_flower.jpg" title="small flower" width="150" height="113">
+        <img src="images/1.2_flower.jpg" title="flower" width="224" height="162">
+        <img src="images/1.3_tree.jpg" title="tree" width="200" height="358">
+
+        <p style="font-size: 40px;"> <b>~</b> means we have to understand <i style="color:rgb(255, 4, 222);">Whole Word</i> containing.....which is given in title..... </p>
+    </body>
+</html>
