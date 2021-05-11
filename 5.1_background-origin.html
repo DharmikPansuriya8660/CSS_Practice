@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BG Origin Different Values</title>
+        <style>
+            #ex1 {
+            border: 10px dashed black;
+            padding: 25px;
+            background: url(images/crinkle_paper-2.jpg);
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+            }
+
+            #ex2 {
+            border: 10px double black;
+            padding: 25px;
+            background: url(images/crinkle_paper-2.jpg);
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            }
+
+            #ex3 {
+            border: 10px dotted black;
+            padding: 25px;
+            background: url(images/crinkle_paper-2.jpg);
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>background-origin: padding-box (default):</h2>
+        <div id="ex1">
+        <h2>Hello World</h2>
+        <p>The background image starts from the upper left corner of the padding edge.</p>
+        </div>
+
+        <h2>background-origin: border-box:</h2>
+        <div id="ex2">
+        <h2>Hello World</h2>
+        <p>The background image starts from the upper left corner of the border.</p>
+        </div>
+
+        <h2>background-origin: content-box:</h2>
+        <div id="ex3">
+        <h2>Hello World</h2>
+        <p>The background image starts from the upper left corner of the content.</p>
+        </div>
+
+    </body>
+
+</html>
