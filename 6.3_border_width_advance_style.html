@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+            border-style: solid;
+            border-width: 10px 20px; /* 5px top and bottom, 20px on the sides */
+            }
+
+            p.two {
+            border-style: solid;
+            border-width: 25px 5px; /* 20px top and bottom, 5px on the sides */
+            }
+
+            p.three {
+            border-style: solid;
+            border-width: 25px 5px 14px 45px; /* 25px top, 10px right, 4px bottom and 35px left */
+            }
+            p.mlcolor {
+            border-style: solid;
+            border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+            }
+            /* Four values */
+            p.p1 {
+            border-style: dotted solid double dashed;
+            border-color: rgb(255, 22, 204);
+            }
+
+            /* Three values */
+            p.p2 {
+            border-style: dotted solid double;
+            border-color: rgb(255, 230, 0);
+            }
+
+            /* Two values */
+            p.p3 {
+            border-style: dotted solid;
+            border-color: rgb(3, 247, 255);
+            }
+
+            /* One value */
+            p.p4 {
+            border-style: dotted;
+            border-color: rgb(184, 31, 11);
+            }
+        </style>
+    </head>
+    <body>
+        <h2>The border-width Property</h2>
+        <p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+        <p class="one">Some text.</p>
+        <p class="two">Some text.</p>
+        <p class="three">Some text.</p>
+       
+        <h2>The border-color Property</h2>
+        <p>The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+        <p class="mlcolor">A solid multicolor border</p>
+       <h2>&#x1F449; Here different type of shorthand border style property applied....! &#x270C;
+       </h2>
+       <h3>&#x1F449; Individual Border Sides.</h3>
+        <div>
+            <p class="p1">4 different border styles.</p>
+            <p class="p2">3 different border styles.</p>
+            <p class="p3">2 different border styles.</p>
+            <p class="p4">1 different border styles.</p>
+
+       </div>     
+    </body>
+</html>
