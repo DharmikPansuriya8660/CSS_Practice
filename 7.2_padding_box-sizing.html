@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            div.ex1 {
+            width: 300px;
+            background-color: yellow;
+            }
+
+            div.ex2 {
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+            background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Padding and element width - with box-sizing</h2>
+
+        <div class="ex1">This div is 300px wide.</div>
+        <br>
+
+        <h3> box-sizing : border-box =  This will set the text to suit the width and padding.<!--(આ પહોળાઈ અને padding અનુરૂપ ટેક્સ્ટને સેટ કરશે.)--></h3>
+
+        <h2>
+            &#x1F449;If this is not the case then the size of the whole box will increase due to the width .... which should not be done ... box sizing is necessary if the size is to be kept the same despite giving cushion. 
+            <!--આ ના હોય તો પહોળાઈ ના કારણે આખા box ની સાઈઝ વધી જશે....જે ના થવું જોઈએ...padding આપવા છતાં જો સાઈઝ એ જ રાખવી હોય તો box sizing જરુરી છે.-->
+        </h2>
+
+        <div class="ex2">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
+        </div>
+
+    </body>
+</html>

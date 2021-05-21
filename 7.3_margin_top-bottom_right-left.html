@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                div {
+                    border: 1px solid black;
+                    margin-top: 100px;
+                    margin-bottom: 100px;
+                    margin-right: 150px;
+                    margin-left: 80px;
+                    background-color: rgb(230, 224, 173);
+                }
+                p.para{
+                    border: 1px solid black;
+                    margin: 25px 50px 75px 100px;
+                    background-color: rgb(223, 173, 230);
+                }
+                p.para2{
+                    border: 1px solid black;
+                    margin: 25px 50px 75px;
+                    background-color: lightblue;
+                }
+                p.para3{
+                    border: 1px solid black;
+                    margin: 25px 50px;
+                    background-color: rgb(177, 173, 230);
+                }
+                p.para4{
+                    border: 1px solid black;
+                    margin: 25px;
+                    background-color: rgb(230, 184, 173);
+                }
+                div.auto{
+                    width:300px;
+                    margin: auto;
+                    border: 5px solid rgb(51, 255, 0);
+                    }
+                div.normal {
+                    border: 1px solid red;
+                    margin-right: 100px;
+                }
+
+                p.ex1 {
+                    margin-right: inherit;
+                }
+                
+            </style>
+        </head>
+        <body>
+
+            <h2>Using individual margin properties</h2>
+
+            <div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+            
+            <hr>
+            
+            <h2>The margin shorthand property - 4 values</h2>
+            <p class="para">This p element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.
+            </p>
+
+            <hr>
+            
+            <h2>The margin shorthand property - 3 values</h2>
+            <p class="para2">This p element has a top margin of 25px, a right and left margin of 50px, and a bottom margin of 75px.</p>
+
+            <hr>
+
+            <h2>The margin shorthand property - 2 values</h2>
+            <p class="para3">This p element has a top and bottom margin of 25px, and a right and left margin of 50px.</p>
+
+            <hr>
+
+            <h2>The margin shorthand property - 1 value</h2>
+            <p class="para4">This div element has a top, bottom, left, and right margin of 25px.</p>
+
+            <hr>
+
+            <div class="auto">
+                This div will be horizontally centered because it has margin: auto;
+            </div>
+            
+            <hr>
+
+            <h2>Use of the inherit value</h2>
+            <p>Let the left margin be inherited from the parent element:</p>
+
+            <div class="normal">
+            <p class="ex1">This paragraph has an inherited left margin (from the div element).
+            </p>
+            </div>
+        
+        
+        </body>
+</html>
