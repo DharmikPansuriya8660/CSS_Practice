@@ -1,0 +1,11 @@
+p{
+	font-size:30px;
+}
+div > p {
+  background-color: yellowgreen;
+  color: blue;
+  font-size:40px;
+}
+* {
+  text-align: center;
+}
